@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0 120px 0 120px;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.container>ul {
+    display: flex;
+    /* height: 40px; */
+    /* border: 2px solid blue; */
+}
+
+.container>ul>li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    border: 1px solid #00000050;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0202d4;
+}
+
+.container>ul>li:nth-child(1) {
+    width: 100px;
+}
+
+.container>ul>li:nth-child(2) {
+    width: 130px;
+}
+
+.container>ul>li:nth-child(3) {
+    width: 155px;
+}
+
+.container>ul>li:nth-child(4) {
+    width: 140px;
+}
+
+.container>ul>li:hover {
+    background: #7474ff10;
+    color: blue;
+}
+
+li>i {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.box {
+    margin-top: 20px;
+    height: 230px;
+    /* border: 2px solid red; */
+    /* background: #000; */
+}
+
+.top {
+    display: flex;
+    /* border: 2px solid grey; */
+}
+
+.top>.left {
+    display: flex;
+    width: 48.5%;
+    padding-left: 20px;
+    /* border: 2px solid blue; */
+}
+
+.top>i {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5F6368;
+}
+
+.top>i:hover {
+    background: #80808020;
+    border-radius: 50%;
+}
+
+.top>.right {
+    display: flex;
+    width: 48.5%;
+    /* border: 2px solid orange; */
+    padding-left: 20px;
+}
+
+.top>.left>ul {
+    display: flex;
+    list-style: none;
+}
+
+.top>.left>ul>li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.top>.right>ul>li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+    /* border: 2px solid red; */
+}
+
+.top ul>li:hover {
+    background: #cccccc30;
+}
+
+.top ul>li:nth-child(2) {
+    color: #0202d4;
+    border-bottom: 2px solid #0202d4;
+    /* background: #cccccc30; */
+}
+
+.top>.left>i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+
+.top>.right>i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-left: 10px;
+    /* border: 2px solid red; */
+}
+
+.top>.left>i:hover {
+    background: #80808020;
+    border-radius: 50%;
+}
+
+.top>.right>i:hover {
+    background: #80808020;
+    border-radius: 50%;
+}
+
+.top>.right>ul {
+    list-style: none;
+    display: flex;
+}
+
+.bottom {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+.bottom>.left {
+    border: 1px solid grey;
+    width: 49.5%;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.bottom>.left>.icon {
+    width: 100%;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.icon>.fa-microphone{
+    height: 100%;
+    width: 50px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#5F6368 ;
+    /* border: 2px solid red; */
+}
+.icon .number{
+    color: #5F6368;
+    width: 130px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.number .keyboard{
+    width: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: #BDBDBD;
+    /* border: 2px solid red; */
+
+}
+
+.bottom>.right {
+    width: 49.5%;
+    height: 180px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    /* border: 2px solid blue; */
+}
+
+.bottom>.right>h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #5F6368;
+}
